@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Community of Urbana Cooperative Housing</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/grayscale.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">
+                    <i class="fa fa-home"></i>  <span class="light">To the</span> Top
+                </a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#about">About the Houses</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#join">Co-op Life</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contact COUCH</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#application">Application</a>
+                    </li>
+					          <li>
+                        <a href="#FAQsModal" data-toggle="modal" data-target="#FAQsModal">FAQs</a>
+                    </li>
+		    <li>
+			<a href="wiki.couchcooperative.org">Wiki</a>
+		    </li>
+		    <li>
+			<a href="member-pages/members.html">Member sign-in</a>
+		    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Intro Header -->
+    <header class="intro">
+        <div class="intro-body">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                        <h1 class="brand-heading">COUCH</h1>
+                        <p class="intro-text">Community of Urbana Cooperative Housing<br>A nice place to call home.</p>
+
+<p class="description-text">
+The Community of Urbana Cooperative Housing (COUCH) is a non-profit cooperative housing organization that supports and seeks to expand the cooperative movement in Urbana, Illinois. COUCH offers low-cost housing options in a friendly, community-oriented environment. Our members not only share the same roof, but also share the responsibilities of maintaining the house. If you live in the Champaign-Urbana area, and are interested in the co-op experience, COUCH may be right for you!</p>
+                        <a href="#about" class="btn btn-circle page-scroll">
+                            <i class="fa fa-angle-double-down animated"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="container content-section text-center" style="padding-top:90px">
+	    <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+				<h2>About the Houses</h2>
+			</div>
+		</div>
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+				<div class="row" style="padding-top:40px">
+					<div class=".col-md-6 col-lg-offset-0" style="position: relative">
+						<a href="harvest.html"><img src="img/harvest.jpg" style="width:500px;height:500px"></a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h4 style="padding-top:40px">Harvest House</h4><h4>702 W. Washington Street, Urbana, IL. </h4>
+				<p>Harvest is a 14 person house focused on sustainability and cooperative living. We are a vegetarian and vegan-friendly house and open to pets.</p>
+<!-- 				<div class="modal fade" role="dialog" aria-labelledby="gridSystemModalLabel" aria-hidden="true"> -->
+						<!-- Button trigger modal -->
+				<button type="button" class="btn btn-default btn-lg" data-toggle="modal" data-target="#HarvestModal">
+				  More info
+				</button>
+				<!-- Modal -->
+				<div class="modal fade" id="HarvestModal" tabindex="-1" role="dialog" aria-labelledby="HarvestModalLabel" aria-hidden="true">
+					<div class="modal-dialog modal-lg">
+						<div class="modal-content" style="background-color: #fff3b3;border: 6px solid #59697f">
+							<div class="modal-header">
+								<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+								<h2 class="modal-title" id="HarvestModalLabel">Harvest House</h2>
+								<h4 style="padding-top:40px">702 W. Washington in Urbana, IL</h4>
+								<p style="font-size:14px;padding-bottom:-5px">Harvest House is a 14-member co-op situated on a quiet, tree-lined street in Urbana. The house is a short walk from the University of Illinois campus and downtown Urbana.</p>
+							</div>
+							<div class="modal-body">
+									<h2>About the House</h2>
+									<h4>Bedrooms</h4>
+									<p style="font-size:16px">Harvest is a three-story house with a furnished basement. Each floor has a 3/4ths bathroom. There are 14 bedrooms, all are completely furnished with a bed, dresser and desk.<br>The average rent per room is $300 per month, with rates ranging from $260/month to $360/month. Utilities are always $60 per month.</p>
+									<h4>Food</h4>
+									<p style="font-size:16px">Harvesters prepare home-cooked, healthy, vegetarian and vegan-friendly dinners Monday through Friday and on Sunday, and brunch on Saturday. Each person cooks once a week, so teams of two make each meal. We buy food in bulk from UNFI which delivers to the house once a month. We strive to buy local when we can and organic when it is the most sustainable option.</p>
+									<h4>Amenities</h4>
+									<p style="font-size:16px">Common spaces include a large kitchen with industrial-quality appliances, pantry, dining room, living room, laundry room, entertainment room, storage closets, and a garage.</p>
+									<p style="font-size:16px">We have cable, telephone and Ethernet internet connections available and wifi standard.</p>
+									<p style="font-size:16px">We also have a house computer with shared printing, bike rack, and a washer and dryer, all of which are free to use for housemates.</p>
+									<h4>Labor and Decision Making</h4>
+									<p style="font-size:16px">Harvest upholds pretty standard operating procedures for a co-op. Check out the FAQs for more details. We make decisions that affect the house either through email (in urgent or low-stakes cases) or at our house meetings on Sunday nights. Decisions are voted on and decided by modified consensus (all in agreement, but one) for bigger decisions and simple majority for minor decisions.</p>
+									<p style="font-size:16px">House meetings are at 8pm on Sundays.</p>
+									<h4>Members</h4>
+									<p style="font-size:16px">Harvest is comprised of mostly graduate and undergraduate students, with some housemates working for the university or in the Champaign-Urbana community. House members come from all corners of the world and encompass a variety of cultural backgrounds.</p>
+									<p style="font-size:16px">Harvest is committed to diversity. Diversity of experience, backgrounds, ideas, and personalities. When deciding who to vote into the house, we value the perspective a person might contribute to the community as much as we care about the typical criteria, such as ability to pay rent.</p>
+									<h4>Costs</h4>
+									<p style="font-size:16px">The formula for determining how much you have to pay a month in total is: RENT + UTILITIES + FOOD. Our utilities cost is fixed at $60 and our food is fixed at $140 (please see the FAQs for info about food). Rent rates vary depending on the room with the lowest option being $260 and the highest being $360.</p>
+									<p style="font-size:16px">So, the lowest potential cost is $260 + $60 + $140 = $460 and the highest is $360 + $60 + $140 = $560.</p>
+									<h2>If you have any questions, or to apply to live in the house:</h2>
+									<p style="font-size:16px">Email <a mailto: "membership.couch@gmail.com">membership.couch@gmail.com</a><br>or <a mailto: "michaelrlgonzalez@gmail.com">Michael Gonzalez</a> (our current membership coordinator).</p>
+									<p style="font-size:16px">To apply to live in the house, download the application, fill it out, and send it to one of the above addresses.<br>We can also send the application to you through email, if that works better for you. Just ask!</p>
+									<h4>Harvest currently has 3 vacancies for Summer 2015, 0 vacancies for Fall 2015, and 4 vacancies for Spring 2016.</h4>
+									<!-- <a href="HarvestApp.docx" download class="btn btn-default btn-lg">Download the Application</a> -->
+									<h2 style="padding-top:60px">Harvest Photos</h2>
+									<p>Co-ops tend to attract really active engaged people, so unsurprisingly we tend to always have a bunch of things we're involved in. Here are some of the things we're jazzed about.</p>
+									<h6> There are currently no photos to show...Give us a sec, some will be up soon.</h6>
+										<div id="carousel-example-generic" class="carousel slide" data-ride="carousel" data-interval="3000">
+										  <!-- Indicators -->
+										  <ol class="carousel-indicators">
+											<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+											<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+											<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+											<li data-target="#carousel-example-generic" data-slide-to="3"></li>
+										  </ol>
+										 
+										  <!-- Wrapper for slides -->
+										  <div class="carousel-inner">
+											<div class="item active">
+											  <img src="img/HarvestPhoto1.jpg" alt="..."> <!--Photos should be 900X500-->
+											  <div class="carousel-caption">
+												  <h3>Caption Text</h3>
+											  </div>
+											</div>
+											<div class="item">
+											  <img src="img/HarvestPhoto2.jpg" alt="...">
+											  <div class="carousel-caption">
+												  <h3>Caption Text</h3>
+											  </div>
+											</div>
+											<div class="item">
+											  <img src="img/HarvestPhoto3.jpg" alt="...">
+											  <div class="carousel-caption">
+												  <h3>Caption Text</h3>
+											  </div>
+											</div>
+											<div class="item">
+											  <img src="img/HarvestPhoto4.jpg" alt="...">
+											  <div class="carousel-caption">
+												  <h3>Caption Text</h3>
+											  </div>
+											</div>
+										  </div>
+										 
+										  <!-- Controls -->
+										  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+											<span class="glyphicon glyphicon-chevron-left"></span>
+										  </a>
+										  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+											<span class="glyphicon glyphicon-chevron-right"></span>
+										  </a>
+										</div> <!-- Carousel -->
+										
+									<!--Map Section -->
+									<div id="map" style="border: 3px solid #59697f">
+										<iframe width="100%" height="100%" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=702%20W%20Washington%20St%2C%20Urbana%2C%20IL%2C%20United%20States&key=AIzaSyA_iBupBKPAbxfeuPVKgEHpg8ADFxyC86c"></iframe>
+									</div>
+							</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+							<!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+						</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+				<div class="row" style="padding-top:40px">
+					<div class=".col-md-6 col-lg-offset-0" style="padding-top: 40px">
+						<a href="brooks.html"><img src="img/brooks.jpg" style="width:500px;height:500px"></a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h4 style="padding-top:40px">Brooks House</h4><h4>505 W. Green Street, Urbana, IL.</h4>
+                <p>Brooks is a 14 person house focused on community building and cooperative living. We are non-vegetarian, but vegetarian-friendly and open to pets.</p>
+				    		<!-- Button trigger modal -->
+				<button type="button" class="btn btn-default btn-lg" data-toggle="modal" data-target="#BrooksModal" style="position: relative">
+				  More info
+				</button>
+
+				<!-- Modal -->
+				<div class="modal fade" id="BrooksModal" tabindex="-1" role="dialog" aria-labelledby="BrooksModalLabel" aria-hidden="true">
+					<div class="modal-dialog modal-lg">
+						<div class="modal-content" style="background-color: #fff3b3;border: 6px solid #59697f">
+							<div class="modal-header">
+								<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+								<h2 class="modal-title" id="BrooksModalLabel">Brooks House</h2>
+								<h4 style="padding-top:40px">505 W. Green in Urbana, IL</h4>
+								<p style="font-size:14px;padding-bottom:-5px">Brooks Co-op – which opened its doors in 2001 – is a 14-member co-op conveniently located halfway between the University of Illinois campus and downtown Urbana (about a 10-minute walk to each). Each week, our members eat five meals together, perform household chores, and enjoy each other’s company in a friendly atmosphere. Our house has 14 bedrooms, 1½ kitchens, a dining room, 2 living rooms, five bathrooms and a basement. Check out our house handbook for lots of details about how the house runs.</p>
+							</div>
+							<div class="modal-body">
+								<h2>About the House</h2>
+								<h4>Bedrooms</h4>
+								<p style="font-size:16px">Brooks has 14 bedrooms, which are usually used as singles. Double occupancy is permitted in larger rooms.<br>Room rates for 2010-2011 vary from $268 to $422 per month, depending on room size and its aesthetic condition.<br>Utilities and food are extra (about $50 and $150 respectively).</p>
+								<h4>Food</h4>
+								<p style="font-size:16px">Brooks’ members enjoy five weekly house meals; members take turns cooking for each other. The co-op offers mostly healthy vegetarian meals with occasional non-vegetarian dishes as well. The house also buys its own food (which is decided by its members), although members are allowed to buy their own personal food.</p>
+								<h4>Amenities</h4>
+								<p style="font-size:16px">Our house is equipped with wireless internet and there is access to wired internet connection in almost every room. The house does not have a land phone; most house members bring their own cell phone. There is a washer and dryer in the basement, and a big compost bin in the back yard for vegetable waste.</p>
+								<h4>Labor and Decision Making</h4>
+								<p style="font-size:16px">Keeping the house in good working order is an important part of life at Brooks. Each member cooks, cleans after meals, and does weekly chores - like cleaning bathrooms, washing the dining room floor, and taking out the garbage. Some members also take on coordinator positions. These people are responsible for house finances, maintenance, food shopping, membership, and labor coordination. Once a semester, we dedicate an entire day making improvements to our house. Check out the FAQs for more details. Decisions are voted on and decided by modified consensus (all in agreement, but one) for bigger decisions and simple majority for minor decisions.</p>
+								<p style="font-size:16px">House meetings occur every two weeks, and give members the opportunity to make democratic decisions on how to run the house. The house uses a modified-consensus model in which a proposal can be vetoed by two or more votes. In honor of the house’s namesake, the poet Gwendolyn Brooks, members sometimes read a poem at the beginning of house meetings.</p>
+<!-- 								<p style="font-size:16px">House meeting times vary, but are generally held once a week.</p> -->
+								<h4>Members</h4>
+								<p style="font-size:16px">Brooks’ members include graduate students, undergraduates, and community members from diverse cultural backgrounds. The average age of members for the 2010-2011 year was 27. Many housemates become friends and do things together outside of the house.</p>
+								<h2>If you have any questions, or to apply to live in the house:</h2>
+								<p style="font-size:16px">Email <a mailto: "membership.couch@gmail.com">membership.couch@gmail.com</a></p>
+								<h4>Brooks currently has 1 vacancy for Fall 2015 and 0 vacancies for Summer 2015.</h4>
+								<h2 style="padding-top:60px">Brooks Photos</h2>
+									<p>Co-ops tend to attract really active engaged people, so unsurprisingly we tend to always have a bunch of things we're involved in. Here are some of the things we're jazzed about.</p>
+								<h6> There are currently no photos to show...Give us a sec, some will be up soon.</h6>
+								<div id="carousel-example-generic" class="carousel slide" data-ride="carousel" data-interval="3000">
+										  <!-- Indicators -->
+										  <ol class="carousel-indicators">
+											<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+											<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+											<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+											<li data-target="#carousel-example-generic" data-slide-to="3"></li>
+										  </ol>
+										 
+										  <!-- Wrapper for slides -->
+										  <div class="carousel-inner">
+											<div class="item active">
+											  <img src="img/BrooksPhoto1.jpg" alt="..."> <!--Photos should be 900X500-->
+											  <div class="carousel-caption">
+												  <h3>Caption Text</h3>
+											  </div>
+											</div>
+											<div class="item">
+											  <img src="img/BrooksPhoto2.jpg" alt="...">
+											  <div class="carousel-caption">
+												  <h3>Caption Text</h3>
+											  </div>
+											</div>
+											<div class="item">
+											  <img src="img/BrooksPhoto3.jpg" alt="...">
+											  <div class="carousel-caption">
+												  <h3>Caption Text</h3>
+											  </div>
+											</div>
+											<div class="item">
+											  <img src="img/BrooksPhoto4.jpg" alt="...">
+											  <div class="carousel-caption">
+												  <h3>Caption Text</h3>
+											  </div>
+											</div>
+										  </div>
+										 
+										  <!-- Controls -->
+										  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+											<span class="glyphicon glyphicon-chevron-left"></span>
+										  </a>
+										  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+											<span class="glyphicon glyphicon-chevron-right"></span>
+										  </a>
+										</div> <!-- Carousel -->
+										
+								<!--Map Section -->
+								<div id="map" style="border: 3px solid #59697f">
+									<iframe width="100%" height="100%" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=505%20W%20Green%20St%2C%20Urbana%2C%20IL%2C%20United%20States&key=AIzaSyBBV59vGYQFm_Sloll8RVmZGBr2pnCC4a8"></iframe>
+								</div>
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			<!-- </div> -->
+			</div>
+		</div>
+	</section>
+	
+    <!-- Join Section style="color:#E2E2E2"-->
+    <section id="join" class="content-section text-center" style="padding-top: 45px">
+        <div class="join-section">
+            <div class="container">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <h2>What's it like to live in a co-op?</h2>
+                    <h4>Communal Meals</h4>
+					<p>House meals are one of the major aspects of the co-op experience. Housemates take turns cooking for each other, and dinner is often a time for members to socialize with each other.</p>
+					<h4>Resource Sharing</h4>
+					<p>Living in a cooperative means that there is no need for everyone to own a set of dishes, buy all of their own food, or buy their own cleaning supplies. Money is saved by buying in bulk and resources are conserved by sharing public goods.</p>
+					<h4>Shared Labor</h4>
+					<p>By setting up an orderly division of labor, housing co-ops make sure that everyone does their part in maintaining the house and no one gets stuck with all the work.</p>
+					<h4>Community</h4>
+					<p>Roommates may merely co-exist without actually interacting with each other. Housing co-op members establish community by working together.</p>
+<!--                     <a href="FAQs.html" class="btn btn-default btn-lg">Visit the FAQs</a> -->
+					<button type="button" class="btn btn-default btn-lg" data-toggle="modal" data-target="#FAQsModal" style="position: relative">
+					Frequently Asked Questions</button>
+					<div class="modal fade" id="FAQsModal" tabindex="-1" role="dialog" aria-labelledby="FAQsModalLabel" aria-hidden="true">
+						<div class="modal-dialog modal-lg">
+							<div class="modal-content" style="color: #59697f;background-color: #fff3b3;border: 6px solid #59697f">
+								<div class="modal-header">
+									<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+									<h2 class="modal-title" id="FAQsModalLabel">Frequently Asked Questions</h2>
+									<h6 style="padding-top:40px;padding-bottom:-5px">These are some of the questions we get most often. If you don't see your question here, please feel free to send us an email.</h6>
+								</div>
+								<div class="modal-body">
+									<div class="row">
+										<div class="col-lg-8 col-lg-offset-2">
+											<h4 style="padding-top:20px">If I want to live in Harvest, do I have to be vegetarian?</h4>
+											<p style="font-size:16px">Nope! Currently, about half of the housemates are vegetarian/vegan.</p>
+											<p style="font-size:16px">We have a policy that no raw meat can be brought into the house and that cooked meat should only be re-heated in the microwave (house pans shouldn't be used for meat). However, if you're ok with that set-up, there is no need to be vegetarian.</p>
+											<h4>What is the time commitment involved when living in the house?</h4>
+											<p style="font-size:16px">We have what we call labor positions. These are jobs that each person takes on once a week and are generally basic upkeep responsibilities. So, for example, one person might sweep the stairs, another might take out the compost, another keeps the bathroom tidy. Labor responsibilities generally take 30 min- 1 hour a week.</p>
+											<p style="font-size:16px">We also have coordinator positions. These are longer running, more big picture jobs. One person takes care of maintenance, meaning if there's something to be fixed, that person will either fix it or delegate the fixing to another housemate or to a professional. We have food shoppers who go out and buy food once a week. Someone takes care of finances. The time commitment varies depending on the job, but typically require 15 min to an hour per week depending on the job.</p>
+											<p style="font-size:16px">Once a week, you are expected to cook dinner for the rest of the housemates. We spend 2 hours cooking and generally about a half hour to an hour with all the clean up.</p>
+											<p style="font-size:16px">The final time commitment is attendance at a weekly house meeting which happens during Sunday night dinner. You get to multitask by eating at the same time, but it is about an hour commitment.</p>
+											<p style="font-size:16px">TOTAL: About 4 hours a week.</p>
+											<h4>How does food work? You buy it collectively, right?</h4>
+											<p style="font-size:16px">Yes. Part of the monthly amount paid to the house goes towards buying food. 
+											<p style="font-size:16px">We have housemates whose coordinator position is to buy food from the grocery store each week and one person who orders the bulk food. Buying decisions are generally made as a group, with some judgement calls going to the food shoppers. If you ever want something specific, put it on the shopping list and they'll get it.</p>
+											<p style="font-size:16px">If you wanted it to, house food could cover all of your food needs for the month. However, you are also completely free to bring your own food into the house. Just label it with your name and no one will touch it.</p>
+											<h4>Can my pet live in the house too?</h4>
+											<p style="font-size:16px">Probably. Pets have to be approved by the housemates, and sometimes someone already living in the house has allergies, but we are certainly open to pets.
+											<p style="font-size:16px">Pets that can live in your room are almost always ok. Bigger pets that require more space and care may not be a good fit for that particular generation of housemates. With that said, the house is generally pretty open as long as you are willing to take responsibility for the pet.</p>
+											<h4>Do you offer non-full year leases?</h4>
+											<p style="font-size:16px">Yes, at Harvest, though room preference is given to those who are able to sign full-year leases.</p>
+											<p style="font-size:16px">Harvest currently offers three lease options<br>1) August 15-August 15<br>2) August 1-January 1<br>3) Whenever you join-August 15 (so if you want to move in for second semester, you're covered).</p>
+											<h4>What are the total costs associated with living in a COUCH house</h4>
+											<p style="font-size:16px"> The costs will vary depending on which house you live in. Monthly costs break down into rent, utilities and food, with set amounts for each. Please see each house's page for information about how they do it.</p>
+											<h4>Okay, so you all live in a co-op. You must be super intense hippy types...</h4>
+											<p style="font-size:16px">While certain characteristics certainly trend that way - we love our garden, compost daily, believe in shared responsibility - we, for the most part, don't think of ourselves like that. We have a lot of varied interests and view points and generally don't take ourselves too seriously. We've had musicians, librarians, biologists, engineers, poets, and many more live in the house. The main commonality between housemates is a dedication to cooperation.</p>
+											<p style="font-size:16px">It's true that the houses tend to attract people with left-leaning political views, but diversity of ideas is just as important to us as other forms of diversity. As long as you are ok living with people whose views differ from your own, there's no reason you couldn't be happy in COUCH. Additionally, if politics aren't your thing, no one will ever ask you about your political beliefs, nor pressure you into picking sides.</p>
+											<h4>Are you associated with other Urbana-Champaign co-ops?</h4>
+											<p style="font-size:16px">Not in any official capacity, no. You may have heard about <a href="https://localwiki.org/cu/West_Urbana_Co-Ops">Jonah Weisskopf's co-ops</a> and/or the <a href="http://www.roundtablehouse.com/">Roundtable houses</a>; while we share similar vibes and are down to network and collaborate with them, those systems are privately owned while we are democratically run as a nonprofit.</p>
+										</div>
+									</div>
+								</div>
+								<div class="modal-footer">
+									<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+									<!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+								</div>
+							</div>
+						</div>
+					</div>
+                </div>
+				<!-- <div class="col-md-3" style="padding-top: 20px">
+					<p style="font-size: 10px"> PHOTO COURTESY OF WIKIPEDIA: http://en.wikipedia.org/wiki/Urbana,_Illinois</p>
+				</div> -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="container content-section text-center" style="padding-top:90px; padding-bottom:140px">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h2>Contact COUCH</h2>
+                <p>Feel free to email us with any questions you might have!</p>
+                <p><a href="mailto:membership.couch@gmail.com">membership.couch@gmail.com</a>
+                </p>
+                <ul class="list-inline banner-social-buttons">
+                    <li>
+                        <a href="https://www.facebook.com/harvest.house.uiuc" class="btn btn-default btn-lg"><i class="fa fa-facebook fa-fw"></i> <span class="network-name">Harvest's Facebook</span></a>
+                    </li>
+<!--                     <li>
+                        <a href="https://www.twitter.com/househarvest" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Harvest Twitter</span></a>
+                    </li> -->
+                    <li>
+                        <a href="https://facebook.com/harvest.house.uiuc" class="btn btn-default btn-lg"><i class="fa fa-facebook fa-fw"></i> <span class="network-name">COUCH Facebook</span></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Application Section -->
+    <section id="application" class="container content-section text-center" style="padding-top:90px; padding-bottom:140px">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h2>Application</h2>
+                <p>If you are interested in joining COUCH, fill out the application below!</p>
+                <p>To open the application form in a new tab, <a target="_blank" href="https://docs.google.com/forms/d/1IhJbmLTPV9UTHs4hSyyk3Pga6FpmMN6j-AWePs9FZ3Q/viewform">click here</a>.</p>
+                <iframe src="https://docs.google.com/forms/d/1IhJbmLTPV9UTHs4hSyyk3Pga6FpmMN6j-AWePs9FZ3Q/viewform?embedded=true" width="760" height="1000" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+        <div class="container text-center">
+			<p>Copyright &copy; COUCH 2015</p>
+			<p style="font-size:12px;padding-top:10px">Webdesign by <a href='mailto:rvlgonzalez@gmail.com'>Rachel Gonzalez</a><br>Based on Greyscale, a Bootstrap theme</p>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+
+    <!-- <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
+  <!--   <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBxmlqrAA2XV2KhWUZaIYSga826siurIJc"></script> -->
+	
+    <!-- Custom Theme JavaScript -->
+    <script src="js/grayscale.js"></script>
+
+</body>
+
+</html>

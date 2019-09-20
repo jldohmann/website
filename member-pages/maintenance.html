@@ -1,0 +1,232 @@
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Community of Urbana Cooperative Housing</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/grayscale.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand" href="../index.html">
+                    <i class="fa fa-rocket"></i>  <span class="light">To the</span> landing page
+                </a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                <ul class="nav navbar-nav">
+                 <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+<!--                     <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+						<a class="page-scroll" href="#notes">Meeting notes</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#join">Co-op Life</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contact COUCH</a>
+                    </li> -->
+					<li>
+						<a href="members.html" style="font-size:18px"><i class="fa fa-home"></i>  <span class="light">To the </span>Home Page</a>
+					</li>
+					<li>      </li>
+					<li>
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="font-size:20px">Pages<span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li>
+							<a href="meeting-notes.html" style="font-family:Montserrat;font-size:12px;color:black;text-align:center">Meeting Notes<br> & <br>Topic Suggestions</a>
+							</li>
+							<li>
+							<a href="calendar.html" style="font-family:Montserrat;font-size:12px;color:black;text-align:center">Calendar<br> & <br>Event Info</a>
+							</li>
+							<li>
+							<a href="maintenance.html" style="font-family:Montserrat;font-size:12px;color:black;text-align:center">Maintenance requests<br> & <br>Contacts</a>
+							</li>
+							<li>
+							<a href="notes.html" style="font-family:Montserrat;font-size:12px;color:black;text-align:center">NASCO info<br> & <br>Important Documents</a>
+							</li>
+						</ul>
+						</li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+	
+        <div class="intro-body">
+	<header class="intro" style="height:400px">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                        <h1 class="brand-heading" style="font-size:40px; padding-top:90px;padding-bottom:0px">Maintenance</h1>
+                        <p class="intro-text">Check out the COUCH maintenance FAQs and submit a request.</p>
+					</div>
+				</div>
+            </div>
+        </div>
+    </header>
+	
+  <body>
+  	<div class="container">
+  		<div class="row">
+  			<div class="col-md-9 col-md-offset-2">
+  				<h1 class="page-header">Maintenance Request Form</h1>
+				<form class="form-horizontal" role="form" method="post" action="maintenanceform.php">
+					<label for="name" class="control-label">Name</label>
+					<div class="form-group">
+						<div class="col-sm-10">
+							<input type="text" class="form-control" id="name" name="name" placeholder="First Name">
+							<!--?php echo "<p class='text-danger'>$errName</p>";?-->
+						</div>
+						<small class="text-muted col-md-offset-2">Optional, this just helps us to know who the point person for this project is.</small>
+					</div>
+					<label for="email" class="control-label">Follow-up Email</label>
+					<div class="form-group">
+						<div class="col-sm-10">
+							<input type="email" class="form-control" id="email" name="email" placeholder="house@googlegroups.com">
+							<!--<?php echo "<p class='text-danger'>$errEmail</p>";?>-->
+						</div>
+						<small class="text-muted col-sm-offset-2">Enter an email address we can use to follow-up.</small>
+					</div>
+					<label for="house" class="control-label">House Name</label>
+					<div class="form-group">
+						
+						<div class="col-sm-10">
+							<input type="name" class="form-control" id="house" name="house" placeholder="Harvest/Brooks">
+						</div>
+					</div>
+					<label for="message" class="control-label">Maintenance Description</label>
+					<div class="form-group">
+						<div class="col-sm-10">
+							<textarea class="form-control" rows="4" name="message" placeholder="Fix the septic tank - quotes attached. Estimated cost: $1000"></textarea>
+						</div>
+						<small class="text-muted col-sm-offset-2">Please include a summary of estimated costs.</small>
+					</div>
+					<div>
+						<label for="budget" class="control-label">From which budget are you requesting funds?</label>
+					</div>
+					<div class="radio">
+						<label>
+						<input type="radio" name="budget" id="optionsRadios1" value="option1" checked>
+						  Major
+						</label>
+					</div>
+					<div class="radio">
+						<label>
+						<input type="radio" name="budget" id="optionsRadios2" value="option2">
+						  Minor
+						</label>
+					</div>
+					<br>
+					<div>
+					<label for="request" class="control-label">Do you need COUCH to approve the request, reimburse you for a cost, or record the expense?</label>
+					</div>
+					<div class="radio">
+						<label>
+						<input type="radio" name="request" id="optionsRadios1" value="option1" checked>
+						  Approval
+						</label>
+					</div>
+					<div class="radio">
+						<label>
+						<input type="radio" name="request" id="optionsRadios2" value="option2">
+						  Reimbursement
+						</label>
+					</div>
+					<div class="radio">
+						<label>
+						<input type="radio" name="request" id="optionsRadios3" value="option3">
+						  For the records
+						</label>
+					</div>
+					<br>
+					<!--div class="col-sm-10">
+					<fieldset class="form-group">
+						<label for="docs" class="control-label">Supporting Docs</label>
+						<input type="file" class="form-control-file" id="exampleInputFile">
+						<small class="text-muted">Upload any supporting documents you may have including quotes and/or receipts.</small>
+					</fieldset>
+					</div-->
+					
+					<div class="form-group">
+						<div class="col-sm-10">
+							<label for="human" class="control-label">2 + 3 = ?</label>
+							<input type="text" class="form-control" id="human" name="human" placeholder="Your Answer">
+						</div>
+					</div>
+					<div class="form-group">
+						<div class="col-sm-10">
+							<input id="submit" name="submit" type="submit" value="Send" class="btn btn-primary">
+						</div>
+					</div>
+					<div class="form-group">
+						<div class="col-sm-10 col-sm-offset-2">
+							<?php echo $result; ?>	
+						</div>
+					</div>
+				</form> 
+			</div>
+		</div>
+	</div> 
+</body>
+
+	<footer>
+        <div class="container text-center">
+			<p>Copyright &copy; COUCH 2015</p>
+			<p style="font-size:12px;padding-top:10px">Webdesign by <a href='mailto:rvlgonzalez@gmail.com'>Rachel Gonzalez</a><br>Based on Greyscale, a Bootstrap theme</p>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+
+    <!-- <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
+  <!--   <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBxmlqrAA2XV2KhWUZaIYSga826siurIJc"></script> -->
+	
+    <!-- Custom Theme JavaScript -->
+    <script src="js/grayscale.js"></script>
+
+</body>
+
+</html>
