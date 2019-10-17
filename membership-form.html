@@ -25,10 +25,10 @@
         <div style="display: inline-block; text-align: left;">
 
     Full name:<br>
-    <input type="text" name="fullname"></br>
+    <input type="text" name="fullname" required></br>
 
     Pronouns:<br>
-    <input type="radio" name="pronouns" value="he"> he/him<br>
+    <input type="radio" name="pronouns" value="he" required> he/him<br>
     <input type="radio" name="pronouns" value="she"> she/her<br>
     <input type="radio" name="pronouns" value="they"> they/them<br>
     <input type="radio" name="pronouns" value="hir">ze/hir<br>
@@ -37,20 +37,20 @@
     <input type="text" name="pronouns"></br>
 
     Email:<br>
-    <input type="text" name="email"></br>
+    <input type="text" name="email" required></br>
 
     Phone number:<br>
-    <input type="text" name="phone"></br>
+    <input type="text" name="phone" required></br>
 
     Address:<br>
-    <input type="text" name="address"></br>
+    <input type="text" name="address" required></br>
 
     Emergency contact info:<br>
-    <input type="text" name="emergency" placeholder="name"><br>
-    <input type="text" name="emergency" placeholder="relationship"><br>
-    <input type="text" name="emergency" placeholder="email"><br>
-    <input type="text" name="emergency" placeholder="phone number"><br>
-    <input type="text" name="emergency" placeholder="address"></br>
+    <input type="text" name="emergency" placeholder="name" required><br>
+    <input type="text" name="emergency" placeholder="relationship" required><br>
+    <input type="text" name="emergency" placeholder="email" required><br>
+    <input type="text" name="emergency" placeholder="phone number" required><br>
+    <input type="text" name="emergency" placeholder="address" required></br>
 
     Personal reference:<br>
     <input type="text" name="p-reference" placeholder="name"><br>
@@ -64,37 +64,38 @@
     <input type="text" name="r-reference" placeholder="phone number"></br>
 
     How long have you known your rental or employment reference, and when were your dates of rental or employment?<br>
-    <input type="text" name="q1"></br>
+    <input type="text" name="q1" placeholder="length of relationship"><br>
+    <input type="text" name="q1" placeholder="dates of rental or employment"></br>
 
     Have you ever caused any legal issues involving physical violence or weapons?<br>
-    <input type="radio" name="q2" value="yes">yes <input type="radio" name="q2" value="no">no </br>
+    <input type="radio" name="q2" value="yes" required>yes <input type="radio" name="q2" value="no">no </br>
 
     I understand and agree that my membership is automatically terminated for dealing drugs or becoming physically violent in Brooks, Harvest, or Randolph House.<br>
-    <input type="radio" name="q3" value="yes">yes <input type="radio" name="q3" value="no">no </br>
+    <input type="radio" name="q3" value="yes" required>yes <input type="radio" name="q3" value="no">no </br>
 
     I agree to protect all members’ health and safety in the house (e.g. no guns, smoking, fire hazards, etc.).<br>
-    <input type="radio" name="q4" value="yes">yes <input type="radio" name="q4" value="no">no </br>
+    <input type="radio" name="q4" value="yes" required>yes <input type="radio" name="q4" value="no">no </br>
 
     Will you be able to pay a security deposit (one month’s rent) the same day you sign a contract?<br>
-    <input type="radio" name="q5" value="yes">yes <input type="radio" name="q5" value="no">no </br>
+    <input type="radio" name="q5" value="yes" required>yes <input type="radio" name="q5" value="no">no </br>
 
     Will you be able to pay one month’s rent plus food/utilities the same day you move into the House?<br>
-    <input type="radio" name="q6" value="yes">yes <input type="radio" name="q6" value="no">no </br>
+    <input type="radio" name="q6" value="yes" required>yes <input type="radio" name="q6" value="no">no </br>
 
     Will you sign a full year lease?<br>
-    <input type="radio" name="q7" value="yes">yes <input type="radio" name="q7" value="no">no </br>
+    <input type="radio" name="q7" value="yes" required>yes <input type="radio" name="q7" value="no">no </br>
 
     Have you ever broken a lease or been evicted?<br>
-    <input type="radio" name="q8" value="yes">yes <input type="radio" name="q8" value="no">no </br>
+    <input type="radio" name="q8" value="yes" required>yes <input type="radio" name="q8" value="no">no </br>
 
     Do you have any allergies or dietary restrictions?<br>
     <input type="text" name="q9" placeholder="vegan, gluten-free, etc."></br>
 
     Do you take any medications that you would like the house to be aware of?<br>
-    <input type="text" name="q10" placeholder="if not, write 'NA'"></br>
+    <input type="text" name="q10"></br>
 
     Do you have any other accessibility needs that you would like the house to be aware of?<br>
-    <input type="text" name="q11" placeholder="if not, write 'NA'"></br>
+    <input type="text" name="q11"></br>
 
     <h3>COUCH House Policies</h3>
     I understand and agree to respect and support the following:<br>
@@ -127,10 +128,12 @@
     <input type="checkbox" name="houses">Randolph</br>
 
     When would you like to visit for a membership dinner/interview?<br>
-    <input type="text" name="q12" placeholder="Please enter a calendar date. E.g. 'March 12' or enter 'ASAP'"></br>
+    <input type="text" name="q12" placeholder="Please enter a calendar date. E.g. 'March 12' or enter 'ASAP'" required></br>
 
     When would you ideally want to move into the co-op?<br>
-    <input type="text" name="q13" placeholder="Please enter a calendar data. E.g. 'March 12' or enter 'ASAP'"></br>
+    <input type="text" name="q13" placeholder="Please enter a calendar data. E.g. 'March 12' or enter 'ASAP'" required></br>
+
+    <input type="submit" value="Submit">
 
         </div>
     </div>
