@@ -378,3 +378,9 @@ body {
     webkit-tap-highlight-color: rgba(255,255,255,.2);
 }
 
+
+/*new css styling 10/17/19*/
+
+input[type=text] {
+    width: 400px
+}
