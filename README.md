@@ -22,4 +22,5 @@ Want to contribute but need to learn a little first? No problem! We'd love to ha
 * [freecodecamp.org](https://freecodecamp.org) – a great place to learn basic HTML, CSS, JavaScript and even some various frameworks (including Bootstrap)
 * [Pro Git docs](https://git-scm.com/book/en/v2) – an online copy of Pro Git. Contains a comprehensive guide for getting started with git
 * [Git video docs](https://git-scm.com/videos) – a collection of videos on getting started with git
+* [GitHub term glossary](https://help.github.com/en/articles/github-glossary) – a glossary of common terms used for collaborative projects e.g. "Pull Request", "Branch", and more.
 * If you're a member of COUCH and would like in-person help, please don't hesitate to reach out!
