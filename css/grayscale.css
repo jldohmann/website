@@ -384,3 +384,13 @@ body {
 input[type=text] {
     width: 400px
 }
+
+#footer {
+    position: sticky;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 2rem;
+    background-color: #efefef;
+    text-align: center;
+}

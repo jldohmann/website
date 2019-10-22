@@ -1,5 +1,9 @@
 <!DOCTYPE html>
 
+<head>
+    <title>Application-form</title>
+</head>
+
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
@@ -13,103 +17,102 @@
 
 
 
-<h1 style="text-align: center;">COUCH Rental Application</h1>
+<h1 style="text-align: center; padding-top: 25px;">COUCH Rental Application</h1>
 
 <div style="text-align: center;">
     <div style="display: inline-block; text-align: left;">
 
-<p>All rentals are made without regard to race, color, religion, sex, age, ancestry, marital or familial status, physical or mental handicap, national origin, or sexual orientation. Feel free to answer "NA" or provide more information at the end of the survey about your answers. Answers are confidential within COUCH. </p>
+        <p style="padding-left: 100px; padding-right: 100px">All rentals are made without regard to race, color, religion, sex, age, ancestry, marital or familial status, physical or mental handicap, national origin, or sexual orientation. Feel free to answer "NA" or provide more information at the end of the survey about your answers. Answers are confidential within COUCH. <b>Empty form submissions will not be considered for membership</b>. </p>
 
-<form>
+<form action="https://docs.google.com/forms/d/e/1FAIpQLSeXeHwCVQMJllCxhZ3urAk4QS3FkhMTAMoVryJG6tvzVQUSiA/formResponse" method="POST" target="_self">
     <div style="text-align: center;">
         <div style="display: inline-block; text-align: left;">
 
-    Full name:<br>
-    <input type="text" name="fullname" required></br>
+    <label>Full name:</label>
+    <input type="text" name="entry.1165086330" required><br>
 
-    Pronouns:<br>
-    <input type="radio" name="pronouns" value="he" required> he/him<br>
-    <input type="radio" name="pronouns" value="she"> she/her<br>
-    <input type="radio" name="pronouns" value="they"> they/them<br>
-    <input type="radio" name="pronouns" value="hir">ze/hir<br>
-    <input type="radio" name="pronouns" value="zir">ze/zir<br>
+    <label>Pronouns:</label><br>
+    <input type="radio" name="entry.293386968" value="he" required> he/him<br>
+    <input type="radio" name="entry.293386968" value="she"> she/her<br>
+    <input type="radio" name="entry.293386968" value="they"> they/them<br>
+    <input type="radio" name="entry.293386968" value="hir">ze/hir<br>
+    <input type="radio" name="entry.293386968" value="zir">ze/zir<br>
     Or specify:<br>
-    <input type="text" name="pronouns"></br>
+    <input type="text" name="entry.293386968"></br>
 
-    Email:<br>
-    <input type="text" name="email" required></br>
+    <label>Email:</label>
+    <input type="text" name="entry.1096589777" required><br>
 
-    Phone number:<br>
-    <input type="text" name="phone" required></br>
+    <label>Phone number:</label>
+    <input type="text" name="entry.1926561857" required><br>
 
-    Address:<br>
-    <input type="text" name="address" required></br>
+    <label>Address:</label>
+    <input type="text" name="entry.2039456461" required><br>
 
-    Emergency contact info:<br>
-    <input type="text" name="emergency" placeholder="name" required><br>
-    <input type="text" name="emergency" placeholder="relationship" required><br>
-    <input type="text" name="emergency" placeholder="email" required><br>
-    <input type="text" name="emergency" placeholder="phone number" required><br>
-    <input type="text" name="emergency" placeholder="address" required></br>
+    <label>Emergency contact info:</label><br>
+    <input type="text" name="entry.948876362" placeholder="name" required><br>
+    <input type="text" name="entry.948876362" placeholder="relationship" required><br>
+    <input type="text" name="entry.948876362" placeholder="email" required><br>
+    <input type="text" name="entry.948876362" placeholder="phone number" required><br>
+    <input type="text" name="entry.948876362" placeholder="address" required></br>
 
-    Personal reference:<br>
-    <input type="text" name="p-reference" placeholder="name"><br>
-    <input type="text" name="p-reference" placeholder="relationship"><br>
-    <input type="text" name="p-reference" placeholder="phone number"></br>
+    <label>Personal reference:</label><br>
+    <input type="text" name="entry.2067891380" placeholder="name"><br>
+    <input type="text" name="entry.2067891380" placeholder="relationship"><br>
+    <input type="text" name="entry.2067891380" placeholder="phone number"></br>
 
-    Rental or employment reference:<br>
-    <input type="text" name="r-reference" placeholder="name"><br>
-    <input type="text" name="r-reference" placeholder="company"><br>
-    <input type="text" name="r-reference" placeholder="relationship"><br>
-    <input type="text" name="r-reference" placeholder="phone number"></br>
+    <label>Rental or employment reference:</label><br>
+    <input type="text" name="entry.725210594" placeholder="name"><br>
+    <input type="text" name="entry.725210594" placeholder="company"><br>
+    <input type="text" name="entry.725210594" placeholder="relationship"><br>
+    <input type="text" name="entry.725210594" placeholder="phone number"></br>
 
-    How long have you known your rental or employment reference, and when were your dates of rental or employment?<br>
-    <input type="text" name="q1" placeholder="length of relationship"><br>
-    <input type="text" name="q1" placeholder="dates of rental or employment"></br>
+    <label>How long have you known your rental or employment reference, and when were your dates of rental or employment?</label><br>
+    <input type="text" name="entry.598701080" placeholder="length of relationship"><br>
+    <input type="text" name="entry.598701080" placeholder="dates of rental or employment"></br>
 
-    Have you ever caused any legal issues involving physical violence or weapons?<br>
-    <input type="radio" name="q2" value="yes" required>yes <input type="radio" name="q2" value="no">no </br>
+    <label>Have you ever caused any legal issues involving physical violence or weapons?</label>
+    <input type="radio" name="entry.1884294379" value="yes" required>yes <input type="radio" name="entry.1884294379" value="no">no <br>
 
-    I understand and agree that my membership is automatically terminated for dealing drugs or becoming physically violent in Brooks, Harvest, or Randolph House.<br>
-    <input type="radio" name="q3" value="yes" required>yes <input type="radio" name="q3" value="no">no </br>
+    <label>I understand and agree that my membership is automatically terminated for dealing drugs or becoming physically violent in Brooks, Harvest, or Randolph House.</label>
+    <input type="radio" name="entry.160225288" value="yes" required>yes <input type="radio" name="entry.160225288" value="no">no <br>
 
-    I agree to protect all members’ health and safety in the house (e.g. no guns, smoking, fire hazards, etc.).<br>
-    <input type="radio" name="q4" value="yes" required>yes <input type="radio" name="q4" value="no">no </br>
+    <label>Will you be able to pay a security deposit (one month’s rent) the same day you sign a contract?</label>
+    <input type="radio" name="entry.1198205400" value="yes" required>yes <input type="radio" name="entry.1198205400" value="no">no <br>
 
-    Will you be able to pay a security deposit (one month’s rent) the same day you sign a contract?<br>
-    <input type="radio" name="q5" value="yes" required>yes <input type="radio" name="q5" value="no">no </br>
+    <label>Will you be able to pay one month’s rent plus food/utilities the same day you move into the House?</label>
+    <input type="radio" name="entry.2018936389" value="yes" required>yes <input type="radio" name="entry.2018936389" value="no">no <br>
 
-    Will you be able to pay one month’s rent plus food/utilities the same day you move into the House?<br>
-    <input type="radio" name="q6" value="yes" required>yes <input type="radio" name="q6" value="no">no </br>
+    <label>Will you sign a full year lease?</label>
+    <input type="radio" name="entry.685061865" value="yes" required>yes <input type="radio" name="entry.685061865" value="no">no <br>
 
-    Will you sign a full year lease?<br>
-    <input type="radio" name="q7" value="yes" required>yes <input type="radio" name="q7" value="no">no </br>
+    <label>Have you ever broken a lease or been evicted?</label>
+    <input type="radio" name="entry.2021764507" value="yes" required>yes <input type="radio" name="entry.2021764507" value="no">no <br>
 
-    Have you ever broken a lease or been evicted?<br>
-    <input type="radio" name="q8" value="yes" required>yes <input type="radio" name="q8" value="no">no </br>
+    <label>Do you have any allergies or dietary restrictions?</label>
+    <input type="text" name="entry.4963977290" placeholder="vegan, gluten-free, etc."> <br>
 
-    Do you have any allergies or dietary restrictions?<br>
-    <input type="text" name="q9" placeholder="vegan, gluten-free, etc."></br>
+    <label>Do you take any medications that you would like the house to be aware of?</label>
+    <input type="text" name="entry.1015409076"> <br>
 
-    Do you take any medications that you would like the house to be aware of?<br>
-    <input type="text" name="q10"></br>
-
-    Do you have any other accessibility needs that you would like the house to be aware of?<br>
-    <input type="text" name="q11"></br>
+    <label>Do you have any other accessibility needs that you would like the house to be aware of?</label>
+    <input type="text" name="entry.1421646700"> </br>
 
     <h3>COUCH House Policies</h3>
-    I understand and agree to respect and support the following:<br>
-    <input type="checkbox" name="policy">Respecting co-op decisions made by modified consensus (agreement by all but one).<br>
-    <input type="checkbox" name="policy">Communicating concerns directly to an individual (before bringing interpersonal concerns to the house) without yelling at or insulting the individual.<br>
-    <input type="checkbox" name="policy">Conserving energy and water, composting, reducing, reusing, and recycling as much as possible.<br>
-    <input type="checkbox" name="policy">Respecting quiet hours anytime for anyone.<br>
-    <input type="checkbox" name="policy">Performing house maintenance tasks to save costs and contracting workers as needed.<br>
-    <input type="checkbox" name="policy">Using the precautionary principle to minimize toxic chemicals in the house and in society.<br>
-    <input type="checkbox" name="hh-policy">For Harvest House: Only buying vegetarian (organic and as local as possible) shared house food.<br>
-    <input type="checkbox" name="hh-policy">For Harvest House: Not keeping raw meat in the house and reheating cooked meat ONLY in the microwave.</br>
+    <label>I understand and agree to respect and support the following:</label><br>
+    <input type="checkbox" name="entry.595030890">Respecting co-op decisions made by modified consensus (agreement by all but one).<br>
+    <input type="checkbox" name="entry.595030890">Communicating concerns directly to an individual (before bringing interpersonal concerns to the house) without yelling at or insulting the individual.<br>
+    <input type="checkbox" name="entry.595030890">Conserving energy and water, composting, reducing, reusing, and recycling as much as possible.<br>
+    <input type="checkbox" name="entry.595030890">Contributing approximately 5 hours a week to hosue cleaning, cooking and weekly meeting.<br>
+    <input type="checkbox" name="entry.595030890">Respecting quiet hours anytime for anyone.<br>
+    <input type="checkbox" name="entry.595030890">Performing house maintenance tasks to save costs and contracting workers as needed.<br>
+    <input type="checkbox" name="entry.595030890">Using the precautionary principle to minimize toxic chemicals in the house and in society.<br>
+    <input type="checkbox" name="entry.595030890">Protecting all members' health and safety in the house (e.g. no guns, smoking, fire hazards, etc.)<br>
+    <input type="checkbox" name="entry.595030890">For Harvest House: Only buying vegetarian (organic and as local as possible) shared house food.<br>
+    <input type="checkbox" name="entry.595030890">For Harvest House: Not keeping raw meat in the house and reheating cooked meat ONLY in the microwave.</br>
 
     <h3>How did you find out about COUCH?</h3>
-    <select name="discovery">
+    <select name="entry.1358161398">
         <option value="flyer">Flyer</option>
         <option value="yard-sign">Yard Sign</option>
         <option value="craigslist">Craiglist</option>
@@ -122,18 +125,24 @@
     <h3>Room Information</h3>
     Please list your preferences below:<br>
 
-    Which house(s) are you applying to live in?<br>
-    <input type="checkbox" name="houses">Brooks<br>
-    <input type="checkbox" name="houses">Harvest<br>
-    <input type="checkbox" name="houses">Randolph</br>
+    <label>Which house(s) are you applying to live in?</label><br>
+    <input type="checkbox" name="entry.1125007076">Brooks<br>
+    <input type="checkbox" name="entry.1125007076">Harvest<br>
+    <input type="checkbox" name="entry.1125007076">Randolph</br>
 
-    When would you like to visit for a membership dinner/interview?<br>
-    <input type="text" name="q12" placeholder="Please enter a calendar date. E.g. 'March 12' or enter 'ASAP'" required></br>
+    <label>When would you like to visit for a membership dinner/interview?</label>
+    <input type="text" name="entry.2076261476" placeholder="Please enter a calendar date. E.g. 'March 12' or enter 'ASAP'" required><br>
 
-    When would you ideally want to move into the co-op?<br>
-    <input type="text" name="q13" placeholder="Please enter a calendar data. E.g. 'March 12' or enter 'ASAP'" required></br>
+    <label>When would you ideally want to move into the co-op?</label>
+    <input type="text" name="entry.1928447980" placeholder="Please enter a calendar data. E.g. 'March 12' or enter 'ASAP'" required><br>
 
-    <input type="submit" value="Submit">
+    <input type="submit" value="Submit"></br>
+
+    <div id="footer">
+        <label>Do you want to save your results and quit for now?</label>
+        <input type="radio" name="entry.827667024" value=yes required>yes <input type="radio" name="entry.827667024" value=no>no
+        <input type="submit" value="Submit">
+    </div>
 
         </div>
     </div>
