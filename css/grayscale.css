@@ -409,3 +409,16 @@ img {
     margin-right: auto;
     width: 50%;
 }
+
+/*new css styling 12/11/19*/
+
+header, main {
+    padding-top: 25px;
+    padding-left: 50px;
+    padding-right: 30px;
+}
+
+legend {
+    padding-top: 15px;
+}
+
