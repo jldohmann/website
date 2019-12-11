@@ -32,14 +32,14 @@ h6 {
 
 p {
     margin: 0 0 25px;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 1.5;
 }
 
 @media(min-width:768px) {
     p {
         margin: 0 0 35px;
-        font-size: 20px;
+        font-size: 16px;
         line-height: 1.6;
     }
 }
@@ -163,15 +163,15 @@ a:focus {
 }
 
 .intro .intro-body .brand-heading {
-    font-size: 40px;
+    font-size: 50px;
 }
 
 .intro .intro-body .intro-text {
-    font-size: 18px;
+    font-size: 22px;
 }
 
 .intro .intro-body .description-text {
-    font-size: 14px;
+    font-size: 20px;
 }
 
 @media(min-width:768px) {
@@ -229,7 +229,7 @@ a:focus {
     -moz-animation-timing-function: linear;
 }
 
-@-webkit-keyframes pulse {    
+@-webkit-keyframes pulse {
     0% {
         -webkit-transform: scale(1);
         transform: scale(1);
@@ -246,7 +246,7 @@ a:focus {
     }
 }
 
-@-moz-keyframes pulse {    
+@-moz-keyframes pulse {
     0% {
         -moz-transform: scale(1);
         transform: scale(1);
@@ -385,6 +385,10 @@ input[type=text] {
     width: 400px
 }
 
+img {
+    border-radius: 8px;
+}
+
 #footer {
     position: sticky;
     right: 0;
@@ -393,4 +397,15 @@ input[type=text] {
     padding: 2rem;
     background-color: #efefef;
     text-align: center;
+}
+
+.readMore {
+    display: none;
+}
+
+.center-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
